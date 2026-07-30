@@ -4,7 +4,6 @@
   "obsidian-hover-editor",
   "obsidian-linter",
   "obsidian-mind-map",
-  "pdf-plus",
   "periodic-notes",
   "quickadd",
   "recent-files-obsidian",
@@ -13,5 +12,6 @@
   "smart-composer",
   "dataview",
   "templater-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "terminal"
 ]
