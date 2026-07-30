@@ -30,7 +30,7 @@
   "showBranchStatusBar": true,
   "setLastSaveToLastCommit": false,
   "submoduleRecurseCheckout": false,
-  "gitDir": "",
+  "gitDir": ".git",
   "showFileMenu": true,
   "authorInHistoryView": "full",
   "dateInHistoryView": false,
