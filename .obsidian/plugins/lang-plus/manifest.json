@@ -1,0 +1,10 @@
+{
+	"id": "lang-plus",
+	"name": "i18n+",
+	"version": "0.3.2",
+	"minAppVersion": "1.4.4",
+	"description": "Manage translations for plugins with hot-reload support and crowdsourced dictionaries.",
+	"author": "dangehub",
+	"authorUrl": "https://github.com/dangehub",
+	"isDesktopOnly": false
+}

@@ -1,0 +1,7 @@
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+.smtcmp_json_db/
+.smtcmp_vector_db.tar.gz
+node_modules/
