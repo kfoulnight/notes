@@ -1,32 +1,96 @@
 {
   "recentFiles": [
     {
-      "basename": "2026-07-30",
-      "path": "知识库/01-Daily（日记）/2026-07-30.md"
+      "basename": "完成项目之后推送代码",
+      "path": "知识库/05-Archive（归档）/git/完成项目之后推送代码.md"
+    },
+    {
+      "basename": "GitLab 协作完整操作指南（从拉取到合并）",
+      "path": "知识库/05-Archive（归档）/git/GitLab 协作完整操作指南（从拉取到合并）.md"
+    },
+    {
+      "basename": "3576拉取代码及编译",
+      "path": "知识库/05-Archive（归档）/3576编译/3576拉取代码及编译.md"
+    },
+    {
+      "basename": "2026-08-04",
+      "path": "知识库/01-Daily（日记）/2026-08-04.md"
+    },
+    {
+      "basename": "分析源码（gt9xx.c）",
+      "path": "知识库/05-Archive（归档）/触摸/分析源码（gt9xx.c）.md"
+    },
+    {
+      "basename": "A7触摸偏移",
+      "path": "知识库/05-Archive（归档）/触摸/A7触摸偏移.md"
+    },
+    {
+      "basename": "input_subsystem_learning_plan",
+      "path": "知识库/05-Archive（归档）/触摸/input_subsystem_learning_plan.md"
+    },
+    {
+      "basename": "2026-08-03",
+      "path": "知识库/01-Daily（日记）/2026-08-03.md"
+    },
+    {
+      "basename": "rk3576_add_new_product_workflow",
+      "path": "知识库/05-Archive（归档）/3576编译/rk3576_add_new_product_workflow.md"
+    },
+    {
+      "basename": "android_build_flow",
+      "path": "知识库/05-Archive（归档）/3576编译/android_build_flow.md"
+    },
+    {
+      "basename": "配置新配置",
+      "path": "知识库/05-Archive（归档）/3576编译/配置新配置.md"
+    },
+    {
+      "basename": "倒车摄像头拍照模块及链路分析",
+      "path": "知识库/05-Archive（归档）/A7 倒车模块/倒车摄像头拍照模块及链路分析.md"
+    },
+    {
+      "basename": "touchscreen_physical_principles",
+      "path": "知识库/05-Archive（归档）/触摸/touchscreen_physical_principles.md"
+    },
+    {
+      "basename": "RK3576_AVB签名与解锁流程_初学者总结",
+      "path": "知识库/05-Archive（归档）/3576编译/RK3576_AVB签名与解锁流程_初学者总结.md"
+    },
+    {
+      "basename": "rk3576_u_build_issue_root_cause_methodology",
+      "path": "知识库/05-Archive（归档）/3576编译/rk3576_u_build_issue_root_cause_methodology.md"
+    },
+    {
+      "basename": "2026-08-01",
+      "path": "知识库/01-Daily（日记）/2026-08-01.md"
+    },
+    {
+      "basename": "sirfsoc_vdss_notes",
+      "path": "知识库/05-Archive（归档）/A7 倒车模块/sirfsoc_vdss_notes.md"
     },
     {
       "basename": "Kanban model",
       "path": "知识库/06-Templates（模板）/Kanban model.md"
     },
     {
+      "basename": "rk3576_u_AB_build_summary",
+      "path": "知识库/05-Archive（归档）/3576编译/rk3576_u_AB_build_summary.md"
+    },
+    {
       "basename": "2026-07-31",
       "path": "知识库/01-Daily（日记）/2026-07-31.md"
     },
     {
-      "basename": "sirfsoc_vdss_notes",
-      "path": "知识库/02-Projects（项目）/A7 倒车模块/sirfsoc_vdss_notes.md"
-    },
-    {
-      "basename": "倒车摄像头拍照模块及链路分析",
-      "path": "知识库/02-Projects（项目）/A7 倒车模块/倒车摄像头拍照模块及链路分析.md"
-    },
-    {
-      "basename": "img_v3_02142_5a8f52b2-4021-4432-8ba5-dd51b964775g",
-      "path": "知识库/02-Projects（项目）/A7 倒车模块/img_v3_02142_5a8f52b2-4021-4432-8ba5-dd51b964775g.jpg"
+      "basename": "2026-07-30",
+      "path": "知识库/01-Daily（日记）/2026-07-30.md"
     },
     {
       "basename": "2026-07-29",
       "path": "知识库/01-Daily（日记）/2026-07-29.md"
+    },
+    {
+      "basename": "img_v3_02142_5a8f52b2-4021-4432-8ba5-dd51b964775g",
+      "path": "知识库/05-Archive（归档）/A7 倒车模块/img_v3_02142_5a8f52b2-4021-4432-8ba5-dd51b964775g.jpg"
     },
     {
       "basename": "未命名",

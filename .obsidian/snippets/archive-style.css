@@ -1,0 +1,158 @@
+/* ============================================================
+   AVB 笔记前端风格美化
+   仅作用于 frontmatter 中 cssclasses 含 archive-page 的笔记
+   启用方法：设置 → 外观 → CSS 代码片段 → 勾选 archive-style
+   ============================================================ */
+
+.archive-page {
+  --avb-primary: #6366f1;
+  --avb-primary-2: #8b5cf6;
+  --avb-bg: #f8fafc;
+  --avb-text: #1e293b;
+  --avb-muted: #64748b;
+  --avb-border: #e2e8f0;
+}
+
+.archive-page .markdown-preview-view,
+.archive-page .markdown-reading-view {
+  background: var(--avb-bg);
+  color: var(--avb-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.85;
+}
+
+/* H1 —— 渐变 hero 卡片 */
+.archive-page .markdown-preview-view h1,
+.archive-page h1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff !important;
+  padding: 22px 26px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.35);
+  font-weight: 700;
+  font-size: 1.7em;
+  border: none;
+  margin: 0 0 1.2em 0;
+}
+
+/* H2 —— 章节标题（左侧色条 + 渐隐底色） */
+.archive-page h2 {
+  position: relative;
+  color: #4c1d95;
+  border-left: 5px solid #764ba2;
+  background: linear-gradient(90deg, rgba(118, 75, 162, 0.12), rgba(118, 75, 162, 0));
+  padding: 8px 14px;
+  border-radius: 0 10px 10px 0;
+  font-size: 1.32em;
+  font-weight: 700;
+  margin: 1.9em 0 0.9em 0;
+}
+
+/* H3 —— 概念小标题（带 ▸ 前缀） */
+.archive-page h3 {
+  color: #0ea5e9;
+  font-weight: 650;
+  font-size: 1.08em;
+  margin: 1.3em 0 0.4em 0;
+  border: none;
+}
+.archive-page h3::before {
+  content: "▸ ";
+  color: #0ea5e9;
+  font-weight: 700;
+}
+
+/* 段落 */
+.archive-page p {
+  margin: 0.6em 0;
+  color: var(--avb-text);
+}
+
+/* 普通引用块 */
+.archive-page blockquote:not(.callout) {
+  background: #eef2ff;
+  border-left: 4px solid #6366f1;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #3730a3;
+  margin: 1em 0;
+}
+
+/* 列表标记上色 */
+.archive-page ol li::marker {
+  color: #764ba2;
+  font-weight: 700;
+}
+.archive-page ul li::marker {
+  color: #6366f1;
+}
+
+/* 行内代码 */
+.archive-page code {
+  background: #eef2ff;
+  color: #4338ca;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+/* 表格美化（含 callout 内表格） */
+.archive-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.8em 0;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 0.94em;
+}
+.archive-page thead th {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #ffffff;
+  padding: 11px 14px;
+  text-align: left;
+  font-weight: 600;
+  border: none;
+}
+.archive-page tbody td {
+  padding: 9px 14px;
+  border-bottom: 1px solid #eef2f7;
+  color: #334155;
+}
+.archive-page tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+.archive-page tbody tr:hover {
+  background: #eef2ff;
+}
+
+/* Callout 圆角阴影 */
+.archive-page .callout {
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
+  border: none !important;
+  overflow: hidden;
+  margin: 1em 0;
+}
+.archive-page .callout .callout-title {
+  font-weight: 700;
+  padding: 8px 14px;
+}
+
+/* 链接 */
+.archive-page a {
+  color: #6366f1;
+  text-decoration: none;
+  border-bottom: 1px dashed #6366f1;
+}
+.archive-page a:hover {
+  color: #4338ca;
+}
+
+/* 分隔线 */
+.archive-page hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #c7d2fe, transparent);
+  margin: 2em 0;
+}

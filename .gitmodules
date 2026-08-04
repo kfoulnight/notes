@@ -1,0 +1,4 @@
+[submodule "obsidian-skills"]
+	path = obsidian-skills
+	url = git@github.com:kepano/obsidian-skills.git
+	branch = main

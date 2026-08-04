@@ -4,45 +4,59 @@ kanban-plugin: board
 
 <%*
 const DATE_FORMAT = "YYYY-MM-DD";
-const yesterdayDate = tp.date.now(DATE_FORMAT, -1);
+const DAILY_FOLDER = "知识库/01-Daily（日记）";
+const targetDate = tp.file.title;
 
-// 日记所在的库内路径；留空时会在整个库中查找昨天的日记。
-const DAILY_FOLDER = "";
+function getPreviousDate(dateText) {
+  const match = dateText.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match) return "";
 
-function escapeRegExp(text) {
-  return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const [year, month, day] = match.slice(1).map(Number);
+  const date = new Date(Date.UTC(year, month - 1, day));
+  if (
+    date.getUTCFullYear() !== year ||
+    date.getUTCMonth() !== month - 1 ||
+    date.getUTCDate() !== day
+  ) {
+    return "";
+  }
+
+  date.setUTCDate(date.getUTCDate() - 1);
+  return date.toISOString().slice(0, DATE_FORMAT.length);
 }
 
 function extractKanbanSection(content, heading) {
-  const pattern = new RegExp(
-    `^##\\s+${escapeRegExp(heading)}\\s*\\n([\\s\\S]*?)(?=^##\\s+|^%%\\s*kanban:settings|$)`,
-    "m"
-  );
-  const match = content.replace(/\r\n/g, "\n").match(pattern);
-  return match ? match[1].trim() : "";
-}
+  const lines = content.replace(/\r\n/g, "\n").split("\n");
+  const start = lines.findIndex((line) => line.trim() === `## ${heading}`);
+  if (start === -1) return "";
 
-async function findYesterdayDailyNote() {
-  if (DAILY_FOLDER) {
-    const file = app.vault.getAbstractFileByPath(
-      `${DAILY_FOLDER}/${yesterdayDate}.md`
-    );
-    if (file) return file;
+  const collected = [];
+  for (const line of lines.slice(start + 1)) {
+    const trimmed = line.trim();
+    if (trimmed.startsWith("## ") || trimmed === "%% kanban:settings") break;
+    collected.push(line);
   }
 
-  return app.vault.getMarkdownFiles().find(
-    (file) => file.basename === yesterdayDate
-  );
+  return collected.join("\n").trim();
 }
 
-const yesterdayFile = await findYesterdayDailyNote();
+const previousDate = getPreviousDate(targetDate);
+const previousFile = previousDate
+  ? app.vault.getAbstractFileByPath(`${DAILY_FOLDER}/${previousDate}.md`)
+  : null;
 let unfinished = "";
 let inProgress = "";
+let completed = "";
 
-if (yesterdayFile) {
-  const content = await app.vault.read(yesterdayFile);
-  unfinished = extractKanbanSection(content, "未完成");
-  inProgress = extractKanbanSection(content, "进行中");
+if (previousFile?.extension === "md") {
+  try {
+    const content = await app.vault.read(previousFile);
+    unfinished = extractKanbanSection(content, "未完成");
+    inProgress = extractKanbanSection(content, "进行中");
+    completed = extractKanbanSection(content, "已完成");
+  } catch (error) {
+    console.error("无法读取前一天的日记：", error);
+  }
 }
 
 tR += `## 未完成
@@ -55,7 +69,7 @@ ${inProgress}
 
 ## 已完成
 
-
+${completed}
 
 %% kanban:settings
 \`\`\`

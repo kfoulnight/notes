@@ -12,6 +12,6 @@
   "smart-composer",
   "dataview",
   "templater-obsidian",
-  "obsidian-git",
-  "terminal"
+  "terminal",
+  "obsidian-sortable"
 ]
