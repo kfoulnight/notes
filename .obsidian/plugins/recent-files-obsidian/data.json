@@ -1,36 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "完成项目之后推送代码",
-      "path": "知识库/05-Archive（归档）/git/完成项目之后推送代码.md"
+      "basename": "调试问题",
+      "path": "知识库/05-Archive（归档）/PHY配置/调试问题.md"
     },
     {
-      "basename": "GitLab 协作完整操作指南（从拉取到合并）",
-      "path": "知识库/05-Archive（归档）/git/GitLab 协作完整操作指南（从拉取到合并）.md"
+      "basename": "BLX8563数据手册",
+      "path": "知识库/05-Archive（归档）/RTC/BLX8563数据手册.md"
+    },
+    {
+      "basename": "车载以太网TJA1120 PHY 开发文档",
+      "path": "知识库/04-Resources（资源）/车载以太网TJA1120 PHY 开发文档.md"
+    },
+    {
+      "basename": "以太网 PHY配置",
+      "path": "知识库/05-Archive（归档）/PHY配置/以太网 PHY配置.md"
+    },
+    {
+      "basename": "PCIE rk1828",
+      "path": "知识库/05-Archive（归档）/PCIE设备/PCIE rk1828.md"
+    },
+    {
+      "basename": "Pasted image 20260902143031",
+      "path": "Pasted image 20260902143031.png"
+    },
+    {
+      "basename": "驱动分析",
+      "path": "知识库/05-Archive（归档）/点屏/驱动分析.md"
+    },
+    {
+      "basename": "翻译",
+      "path": "知识库/05-Archive（归档）/翻译.md"
+    },
+    {
+      "basename": "3576",
+      "path": "知识库/05-Archive（归档）/点屏/3576.md"
     },
     {
       "basename": "3576拉取代码及编译",
       "path": "知识库/05-Archive（归档）/3576编译/3576拉取代码及编译.md"
     },
     {
-      "basename": "2026-08-04",
-      "path": "知识库/01-Daily（日记）/2026-08-04.md"
+      "basename": "max96755-max96752-display-flow",
+      "path": "知识库/05-Archive（归档）/点屏/max96755-max96752-display-flow.md"
     },
     {
-      "basename": "分析源码（gt9xx.c）",
-      "path": "知识库/05-Archive（归档）/触摸/分析源码（gt9xx.c）.md"
+      "basename": "bringup7255",
+      "path": "知识库/05-Archive（归档）/点屏/bringup7255.md"
     },
     {
-      "basename": "A7触摸偏移",
-      "path": "知识库/05-Archive（归档）/触摸/A7触摸偏移.md"
+      "basename": "倒车摄像头拍照模块及链路分析",
+      "path": "知识库/05-Archive（归档）/A7 倒车模块/倒车摄像头拍照模块及链路分析.md"
     },
     {
-      "basename": "input_subsystem_learning_plan",
-      "path": "知识库/05-Archive（归档）/触摸/input_subsystem_learning_plan.md"
+      "basename": "img_v3_02142_5a8f52b2-4021-4432-8ba5-dd51b964775g",
+      "path": "知识库/05-Archive（归档）/A7 倒车模块/img_v3_02142_5a8f52b2-4021-4432-8ba5-dd51b964775g.jpg"
     },
     {
-      "basename": "2026-08-03",
-      "path": "知识库/01-Daily（日记）/2026-08-03.md"
+      "basename": "img_v3_02143_19cc33e2-82b8-444f-af82-2adc82803f5g",
+      "path": "知识库/05-Archive（归档）/A7 倒车模块/img_v3_02143_19cc33e2-82b8-444f-af82-2adc82803f5g.jpg"
+    },
+    {
+      "basename": "sirfsoc_vdss_notes",
+      "path": "知识库/05-Archive（归档）/A7 倒车模块/sirfsoc_vdss_notes.md"
+    },
+    {
+      "basename": "RK3576_AVB签名与解锁流程_初学者总结",
+      "path": "知识库/05-Archive（归档）/3576编译/RK3576_AVB签名与解锁流程_初学者总结.md"
+    },
+    {
+      "basename": "2026-08-13",
+      "path": "知识库/01-Daily（日记）/2026-08-13.md"
     },
     {
       "basename": "rk3576_add_new_product_workflow",
@@ -45,56 +85,120 @@
       "path": "知识库/05-Archive（归档）/3576编译/配置新配置.md"
     },
     {
-      "basename": "倒车摄像头拍照模块及链路分析",
-      "path": "知识库/05-Archive（归档）/A7 倒车模块/倒车摄像头拍照模块及链路分析.md"
+      "basename": "max96755-max96752-display-timing-flow",
+      "path": "知识库/05-Archive（归档）/点屏/max96755-max96752-display-timing-flow.md"
+    },
+    {
+      "basename": "2026-08-12",
+      "path": "知识库/01-Daily（日记）/2026-08-12.md"
+    },
+    {
+      "basename": "rk3576-max96755-max96752-lvds-bringup-runbook copy",
+      "path": "知识库/05-Archive（归档）/点屏/rk3576-max96755-max96752-lvds-bringup-runbook copy.md"
+    },
+    {
+      "basename": "2026-08-11",
+      "path": "知识库/01-Daily（日记）/2026-08-11.md"
+    },
+    {
+      "basename": "2026-08-10",
+      "path": "知识库/01-Daily（日记）/2026-08-10.md"
+    },
+    {
+      "basename": "2026-08-08",
+      "path": "知识库/01-Daily（日记）/2026-08-08.md"
+    },
+    {
+      "basename": "GitLab 协作完整操作指南（从拉取到合并）",
+      "path": "知识库/05-Archive（归档）/git/GitLab 协作完整操作指南（从拉取到合并）.md"
+    },
+    {
+      "basename": "驱动源码",
+      "path": "知识库/05-Archive（归档）/视频架构/驱动源码.md"
+    },
+    {
+      "basename": "H264与H265视频编码标准详解",
+      "path": "知识库/05-Archive（归档）/视频架构/H264与H265视频编码标准详解.md"
+    },
+    {
+      "basename": "drm-data-control-path-analysis",
+      "path": "知识库/05-Archive（归档）/视频架构/drm-data-control-path-analysis.md"
+    },
+    {
+      "basename": "drm-framework-upstream-downstream-analysis",
+      "path": "知识库/05-Archive（归档）/视频架构/drm-framework-upstream-downstream-analysis.md"
+    },
+    {
+      "basename": "2026-08-07",
+      "path": "知识库/01-Daily（日记）/2026-08-07.md"
+    },
+    {
+      "basename": "gt9xx-coordinate-conversion",
+      "path": "知识库/05-Archive（归档）/触摸/gt9xx-coordinate-conversion.md"
+    },
+    {
+      "basename": "linux-input-subsystem-deep-dive",
+      "path": "知识库/05-Archive（归档）/触摸/linux-input-subsystem-deep-dive.md"
+    },
+    {
+      "basename": "input_subsystem_learning_plan",
+      "path": "知识库/05-Archive（归档）/触摸/input_subsystem_learning_plan.md"
+    },
+    {
+      "basename": "input 子系统",
+      "path": "知识库/05-Archive（归档）/触摸/input 子系统.md"
+    },
+    {
+      "basename": "视频文件结构与显示核心参数",
+      "path": "知识库/05-Archive（归档）/视频架构/视频文件结构与显示核心参数.md"
+    },
+    {
+      "basename": "Linux DRM 与视频显示驱动基础",
+      "path": "知识库/05-Archive（归档）/视频架构/Linux DRM 与视频显示驱动基础.md"
+    },
+    {
+      "basename": "2026-08-03",
+      "path": "知识库/01-Daily（日记）/2026-08-03.md"
+    },
+    {
+      "basename": "视频封装格式与编码标准",
+      "path": "知识库/05-Archive（归档）/视频架构/视频封装格式与编码标准.md"
+    },
+    {
+      "basename": "2026-08-06",
+      "path": "知识库/01-Daily（日记）/2026-08-06.md"
+    },
+    {
+      "basename": "2026-08-05",
+      "path": "知识库/01-Daily（日记）/2026-08-05.md"
     },
     {
       "basename": "touchscreen_physical_principles",
       "path": "知识库/05-Archive（归档）/触摸/touchscreen_physical_principles.md"
     },
     {
-      "basename": "RK3576_AVB签名与解锁流程_初学者总结",
-      "path": "知识库/05-Archive（归档）/3576编译/RK3576_AVB签名与解锁流程_初学者总结.md"
+      "basename": "gt9xx-input-subsystem-analysis",
+      "path": "知识库/05-Archive（归档）/触摸/gt9xx-input-subsystem-analysis.md"
     },
     {
-      "basename": "rk3576_u_build_issue_root_cause_methodology",
-      "path": "知识库/05-Archive（归档）/3576编译/rk3576_u_build_issue_root_cause_methodology.md"
+      "basename": "A7触摸偏移",
+      "path": "知识库/05-Archive（归档）/触摸/A7触摸偏移.md"
     },
     {
-      "basename": "2026-08-01",
-      "path": "知识库/01-Daily（日记）/2026-08-01.md"
+      "basename": "多点触摸（MT）协议",
+      "path": "知识库/05-Archive（归档）/触摸/多点触摸（MT）协议.md"
     },
     {
-      "basename": "sirfsoc_vdss_notes",
-      "path": "知识库/05-Archive（归档）/A7 倒车模块/sirfsoc_vdss_notes.md"
+      "basename": "touchscreen-driver-analysis",
+      "path": "知识库/05-Archive（归档）/触摸/touchscreen-driver-analysis.md"
     },
     {
-      "basename": "Kanban model",
-      "path": "知识库/06-Templates（模板）/Kanban model.md"
+      "basename": "LCD与OLED",
+      "path": "知识库/05-Archive（归档）/视频架构/LCD与OLED.md"
     },
     {
-      "basename": "rk3576_u_AB_build_summary",
-      "path": "知识库/05-Archive（归档）/3576编译/rk3576_u_AB_build_summary.md"
-    },
-    {
-      "basename": "2026-07-31",
-      "path": "知识库/01-Daily（日记）/2026-07-31.md"
-    },
-    {
-      "basename": "2026-07-30",
-      "path": "知识库/01-Daily（日记）/2026-07-30.md"
-    },
-    {
-      "basename": "2026-07-29",
-      "path": "知识库/01-Daily（日记）/2026-07-29.md"
-    },
-    {
-      "basename": "img_v3_02142_5a8f52b2-4021-4432-8ba5-dd51b964775g",
-      "path": "知识库/05-Archive（归档）/A7 倒车模块/img_v3_02142_5a8f52b2-4021-4432-8ba5-dd51b964775g.jpg"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.canvas"
+      "basename": "2026-08-04",
+      "path": "知识库/01-Daily（日记）/2026-08-04.md"
     }
   ],
   "omittedPaths": [],

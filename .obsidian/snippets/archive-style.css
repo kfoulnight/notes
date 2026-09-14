@@ -96,6 +96,80 @@
   font-size: 0.9em;
 }
 
+/* 代码块：深色编辑器风格 */
+.archive-page pre {
+  position: relative;
+  margin: 1.2em 0;
+  padding: 18px 20px;
+  border: 1px solid #c7d2fe;
+  border-radius: 12px;
+  background: #172033;
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.16);
+  overflow-x: auto;
+  white-space: pre;
+}
+
+.archive-page pre code {
+  display: block;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #e2e8f0;
+  font-family: "Cascadia Code", "JetBrains Mono", Consolas, monospace;
+  font-size: 0.9em;
+  line-height: 1.7;
+  tab-size: 4;
+  white-space: inherit;
+}
+
+/* 代码块滚动条 */
+.archive-page pre::-webkit-scrollbar {
+  height: 8px;
+}
+
+.archive-page pre::-webkit-scrollbar-track {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+.archive-page pre::-webkit-scrollbar-thumb {
+  background: #64748b;
+  border-radius: 4px;
+}
+
+.archive-page pre::-webkit-scrollbar-thumb:hover {
+  background: #a5b4fc;
+}
+
+/* 语法高亮：适配 Obsidian Prism/CodeMirror 输出 */
+.archive-page pre .token.comment,
+.archive-page pre .cm-comment {
+  color: #94a3b8;
+}
+
+.archive-page pre .token.keyword,
+.archive-page pre .cm-keyword {
+  color: #c4b5fd;
+}
+
+.archive-page pre .token.string,
+.archive-page pre .token.attr-value,
+.archive-page pre .cm-string {
+  color: #86efac;
+}
+
+.archive-page pre .token.number,
+.archive-page pre .token.boolean,
+.archive-page pre .cm-number {
+  color: #fbbf24;
+}
+
+.archive-page pre .token.function,
+.archive-page pre .token.class-name,
+.archive-page pre .cm-def {
+  color: #67e8f9;
+}
+
 /* 表格美化（含 callout 内表格） */
 .archive-page table {
   width: 100%;

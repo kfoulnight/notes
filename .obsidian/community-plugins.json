@@ -9,9 +9,10 @@
   "recent-files-obsidian",
   "tag-wrangler",
   "obsidian-kanban",
-  "smart-composer",
   "dataview",
   "templater-obsidian",
   "terminal",
-  "obsidian-sortable"
+  "obsidian-sortable",
+  "mousewheel-image-zoom",
+  "ctrl-scroll-zoom"
 ]
